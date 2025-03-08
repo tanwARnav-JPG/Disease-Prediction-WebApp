@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('Trained Model/diabetes_model1.sav', 'rb'))
+diabetes_model = pickle.load(open('trained models sav files/diabetes_model1.sav', 'rb'))
 
 #diabetes_model = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/diabetes_model1.sav', 'rb'))
 
