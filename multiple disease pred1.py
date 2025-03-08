@@ -10,17 +10,17 @@ diabetes_model = pickle.load(open('trained models sav files/diabetes_model1.sav'
 
 #diabetes_model = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/diabetes_model1.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('Trained Model/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('trained models sav files/heart_disease_model.sav', 'rb'))
 
 #heart_disease_model = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('trained models sav files/parkinsons_model.sav', 'rb'))
 
-diabetes_model2 = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/diabetes_model.sav', 'rb'))
+diabetes_model2 = pickle.load(open('trained models sav files/diabetes_model.sav', 'rb'))
 
-cancer_model = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/breast_cancer_model.sav', 'rb'))
+cancer_model = pickle.load(open('trained models sav files/breast_cancer_model.sav', 'rb'))
 
-lung_cancer = pickle.load(open('C:/Users/arnav/Desktop/Major Project/Major Project/Trained Model/lungcancer_model.sav', 'rb'))
+lung_cancer = pickle.load(open('trained models sav files/lungcancer_model.sav', 'rb'))
 
 
 
