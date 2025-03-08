@@ -3,5 +3,4 @@ pandas
 pickle-mixin
 streamlit
 streamlit-option-menu==0.4.0
-option-menu
 scikit-learn
