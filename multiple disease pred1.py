@@ -61,7 +61,8 @@ if selected == 'CHOOSE AN OPTION':
     st.warning("⚠️ This tool is for educational use and not a substitute for professional medical advice!")
     col1, col2, col3 = st.columns([1, 0.5, 1])
     with col2:
-        st.image("C:/Users/arnav/Pictures/IMG-20241119-WA0030.jpg", width=150)
+        st.image('images/IMG-20241119-WA0030.jpg', width=150)
+
     
 
 
