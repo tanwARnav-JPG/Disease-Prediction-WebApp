@@ -2,10 +2,10 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-
+#import seaborn as sns
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import requests
 import joblib
 
@@ -162,17 +162,17 @@ if selected == 'Diabetes':
                     """, unsafe_allow_html=True)
 
             # Visualization
-            df = pd.DataFrame({
-                'Feature': ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age'],
-                'Value': [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]
-            })
-            fig, ax = plt.subplots(figsize=(10, 6))
-            sns.barplot(x='Feature', y='Value', data=df, palette='viridis', ax=ax)
-            ax.set_title('Entered Diabetes Health Parameters')
-            ax.tick_params(axis='x', rotation=45)
-            st.pyplot(fig)
+            #df = pd.DataFrame({
+               # 'Feature': ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age'],
+                #'Value': [Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]
+            #})
+            #fig, ax = plt.subplots(figsize=(10, 6))
+           # sns.barplot(x='Feature', y='Value', data=df, palette='viridis', ax=ax)
+            #ax.set_title('Entered Diabetes Health Parameters')
+           # ax.tick_params(axis='x', rotation=45)
+            #st.pyplot(fig)
 
-            st.success(diab_diagnosis2)
+            #st.success(diab_diagnosis2)
     
     
     
