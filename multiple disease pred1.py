@@ -24,9 +24,9 @@ parkinsons_model = pickle.load(open('trained models sav files/parkinsons_model.s
 
 diabetes_model1 = pickle.load(open('trained models sav files/diabetes_model.sav', 'rb'))
 
-cancer_model = pickle.load(open('trained models sav files/breast_cancer_model (2)', 'rb'))
+breastcancer_model = pickle.load(open('trained models sav files/breast_cancer_model (2)', 'rb'))
 
-lung_cancer = pickle.load(open('trained models sav files/lungcancer_model.sav', 'rb'))
+lungcancer_model = pickle.load(open('trained models sav files/lungcancer_model.sav', 'rb'))
 
 
 
