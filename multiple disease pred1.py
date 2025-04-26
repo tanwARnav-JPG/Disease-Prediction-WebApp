@@ -30,7 +30,7 @@ lungcancer_model = pickle.load(open('trained models sav files/lungcancer_model.s
 
 
 
-st.set_page_config(page_title="Multiple Disease Prediction System", layout="centered")
+st.set_page_config(page_title="Multiple Disease Prediction System webapp by Arnav", layout="centered")
 
 
 
@@ -109,7 +109,7 @@ if selected == 'Diabetes':
 
 
     
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction using ML 🩸')
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR DIABETES:")
     
     col1, col2, col3 = st.columns(3)
@@ -332,7 +332,7 @@ if (selected == 'Heart Disease'):
     """)
     
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction using ML 🫀')
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR HEART DISEASE:")
     
 
@@ -433,7 +433,7 @@ if (selected == 'Heart Disease'):
 if (selected == "Parkinson's Disease"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction using ML 🧠")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR PARKINSONS:")
     
     st.sidebar.header("About the Input Terms")
@@ -614,7 +614,7 @@ if (selected == "Parkinson's Disease"):
 if(selected == "Breast Cancer"):
     
     #page title
-    st.title("Breast Cancer Prediction using ML")
+    st.title("Breast Cancer Prediction using ML 🎗")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR BREAST CANCER:")
     
     st.sidebar.header("About the Input Terms")
@@ -809,7 +809,7 @@ if(selected == "Breast Cancer"):
 if(selected == "Lung Cancer"):
     
     #page title
-    st.title("Lung Cancer Prediction using ML")
+    st.title("Lung Cancer Prediction using ML 🫁")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR LUNG CANCER:")
     st.sidebar.header("About the Input Terms")
     st.sidebar.markdown("""       
