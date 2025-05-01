@@ -40,7 +40,7 @@ st.set_page_config(page_title="Multiple Disease Prediction System webapp by Arna
 with st.sidebar:
     selected = option_menu(
         'MULTI-DISEASE PREDICTION SYSTEM',
-        ['ABOUT,
+        ['ABOUT',
          'Diabetes',
          'Heart Disease',
          "Parkinson's Disease",
