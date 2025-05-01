@@ -109,7 +109,7 @@ if selected == 'Diabetes':
 
 
     
-    st.title('Diabetes Prediction using ML 🩸')
+    st.title('Diabetes Prediction using ML🩸')
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR DIABETES:")
     
     col1, col2, col3 = st.columns(3)
@@ -614,7 +614,7 @@ if (selected == "Parkinson's Disease"):
 if(selected == "Breast Cancer"):
     
     #page title
-    st.title("Breast Cancer Prediction using ML🎗")
+    st.title("Breast Cancer Prediction using ML 🎗")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR BREAST CANCER:")
     
     st.sidebar.header("About the Input Terms")
