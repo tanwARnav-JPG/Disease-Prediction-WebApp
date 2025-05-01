@@ -39,7 +39,7 @@ st.set_page_config(page_title="Multiple Disease Prediction System webapp by Arna
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu(
-        'MENU-DRIVEN MULTIPLE DISEASE PREDICTION SYSTEM USING ML',
+        'MULTI-DISEASE PREDICTION SYSTEM',
         ['CHOOSE AN OPTION',  # placeholder item
          'Diabetes',
          'Heart Disease',
@@ -55,7 +55,7 @@ with st.sidebar:
 
 if selected == 'CHOOSE AN OPTION':
     
-    st.success("👨🏻‍💻 WELCOME TO MY ML BASED HEALTH PREDICTION WEB-APP.")
+    st.success("👨🏻‍💻 WELCOME TO THIS ML-BASED MENU-DRIVEN HEALTH PREDICTION WEB APP.")
     st.info("🖥 Designed with a user-friendly interface and backed by real medical datasets and models, this system uses advanced ML algorithms to predict various health conditions based on user input including: Diabetes, Heart Disease, Parkinson's Disease, Breast Cancer, Lung Cancer.")
     st.error("🚀 Choose a prediction model from the sidebar to get started.")
     st.warning("⚠️ This tool is for educational use and not a substitute for professional medical advice!")
