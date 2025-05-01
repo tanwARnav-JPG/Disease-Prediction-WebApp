@@ -332,7 +332,7 @@ if (selected == 'Heart Disease'):
     """)
     
     # page title
-    st.title('Heart Disease Prediction using ML 🫀')
+    st.title('Heart Disease Prediction using ML🫀')
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR HEART DISEASE:")
     
 
@@ -433,7 +433,7 @@ if (selected == 'Heart Disease'):
 if (selected == "Parkinson's Disease"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML 🧠")
+    st.title("Parkinson's Disease Prediction using ML🧠")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR PARKINSONS:")
     
     st.sidebar.header("About the Input Terms")
@@ -809,7 +809,7 @@ if(selected == "Breast Cancer"):
 if(selected == "Lung Cancer"):
     
     #page title
-    st.title("Lung Cancer Prediction using ML 🫁")
+    st.title("Lung Cancer Prediction using ML🫁")
     st.markdown("ENTER HEALTH PARAMETERS TO CHECK FOR LUNG CANCER:")
     st.sidebar.header("About the Input Terms")
     st.sidebar.markdown("""       
