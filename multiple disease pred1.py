@@ -124,7 +124,7 @@ if selected == 'Diabetes':
         BloodPressure = st.number_input('Blood Pressure value', min_value=0, max_value=125, value=None, help='The pressure of circulating blood on the walls of blood vessels.', placeholder="Enter blood pressure (mmHg)")
     
     with col1:
-        SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=50, value=None, help='Measurement of skin fold thickness (in mm) to estimate body fat.', placeholder="Enter skin thickness (mm)")
+        SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=100, value=None, help='Measurement of skin fold thickness (in mm) to estimate body fat.', placeholder="Enter skin thickness (mm)")
     
     with col2:
         Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, value=None, help='The amount of insulin hormone in the blood (mu U/ml).', placeholder="Enter insulin level (mu U/ml)")
