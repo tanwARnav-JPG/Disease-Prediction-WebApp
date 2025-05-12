@@ -377,7 +377,7 @@ if (selected == 'Heart Disease'):
         exang = 1 if exang_input == 'Yes' else 0
     
     with col1:
-        oldpeak = st.number_input('ST Depression Induced by Exercise', min_value=0.0, max_value=10.0, value=None, 
+        oldpeak = st.number_input('ST Depression Induced by Exercise', min_value=0.000, max_value=10.0, value=None, 
                                   help="ST depression induced by exercise relative to rest.", placeholder="Enter ST depression value")
     
     with col2:
