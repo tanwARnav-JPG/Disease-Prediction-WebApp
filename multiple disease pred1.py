@@ -30,7 +30,7 @@ lungcancer_model = pickle.load(open('trained models sav files/lungcancer_model.s
 
 
 
-st.set_page_config(page_title="Multiple Disease Prediction System webapp by Arnav", layout="centered")
+st.set_page_config(page_title="Health Tracker Webapp", layout="centered")
 
 
 
@@ -60,8 +60,8 @@ if selected == 'HOME':
     st.error("🚀 Choose any option from the sidebar to get started.")
     st.warning("**⚠️ This tool is for educational use and not a substitute for professional medical advice!**")
     col1, col2, col3 = st.columns([1, 0.5, 1])
-    with col2:
-        st.image('images/IMG-20241119-WA0030.jpg', width=150)
+    #with col2:
+        #st.image('images/IMG-20241119-WA0030.jpg', width=150)
 
     
 
@@ -1048,7 +1048,7 @@ def set_bg_from_url(url, opacity=1):
     <footer>
         <div style='visibility: visible;margin-top:2rem;justify-content:center;display:flex;'>
             <p style="font-size:1.5rem;">
-                "Made by <b>ARNAV TANWAR</b>"                            
+                "Made by <b>BHAVYA SACHDEVA & ARNAV TANWAR</b>"                            
             </p>
         </div>
     </footer>
