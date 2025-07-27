@@ -1048,7 +1048,7 @@ def set_bg_from_url(url, opacity=1):
     <footer>
         <div style='visibility: visible;margin-top:2rem;justify-content:center;display:flex;'>
             <p style="font-size:1.5rem;">
-                "Made by <b>BHAVYA SACHDEVA & ARNAV TANWAR</b>"                            
+                "Made by <b>BHAVYA SACHDEVA</b> and <b>ARNAV TANWAR</b>"                            
             </p>
         </div>
     </footer>
