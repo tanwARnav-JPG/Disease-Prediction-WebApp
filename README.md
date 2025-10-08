@@ -40,7 +40,7 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 - **Programming Language:** Python 3.8+  
 - **Framework:** Streamlit  
 - **Libraries:** scikit-learn, pandas, numpy, matplotlib, streamlit
-- **Development Tools:** Jupyter Notebook / VS Code  
+- **Development Tools:** Jupyter Notebook / Google Colab, VS Code / Spyder IDE
 
 ---
 
