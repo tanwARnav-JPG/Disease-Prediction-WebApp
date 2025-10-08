@@ -39,7 +39,7 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 ## 💻 Tech Stack
 - **Programming Language:** Python 3.8+  
 - **Framework:** Streamlit  
-- **Libraries:** scikit-learn, pandas, numpy, matplotlib  
+- **Libraries:** scikit-learn, pandas, numpy, matplotlib, streamlit
 - **Development Tools:** Jupyter Notebook / VS Code  
 
 ---
