@@ -50,12 +50,14 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 ---
 
 ## 📊 Results
-| Disease       | Algorithm           | Testing Accuracy |
-| ------------- | ------------------- | ---------------- |
-| Diabetes      | SVM                 | 90.38%           |
-| Heart Disease | Logistic Regression | 81.97%           |
-| Parkinson’s   | SVM                 | 87.18%           |
-| Breast Cancer | Logistic Regression | 94.29%           |
-| Lung Cancer   | Logistic Regression | 90.32%           |
+
+| Disease         | Algorithm Used       | Training Accuracy | Testing Accuracy |
+|-----------------|----------------------|-------------------|------------------|
+| Diabetes        | SVM                  | 93.51%            | 90.38%           |
+| Heart Disease   | Logistic Regression  | 85.12%            | 81.97%           |
+| Parkinson       | SVM                  | 87.18%            | 87.18%           |
+| Breast Cancer   | Logistic Regression  | 96.49%            | 94.29%           |
+| Lung Cancer     | Logistic Regression  | 93.93%            | 90.32%           |
+
 
 Webapp Link: https://healthtrackerwebapp.streamlit.app/
