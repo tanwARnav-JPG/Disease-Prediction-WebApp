@@ -24,7 +24,6 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 ## 🧠 Machine Learning Models
 - **Support Vector Machine (SVM)**: Chosen for robustness and high accuracy on complex datasets  
 - **Logistic Regression**: Offers interpretability and efficiency for binary classification  
-- Models are trained and tested using **k-fold cross-validation** to ensure reliability
 
 ---
 
