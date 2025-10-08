@@ -918,58 +918,6 @@ if(selected == "Lung Cancer"):
             st.success(LungCancer_result)
 
 
-#Chatbot
-if (selected == 'Healthcare Chatbot'):
-
-    # Define the GPT API endpoint
-    API_ENDPOINT = "https://api.pawan.krd/v1/completions"
-
-    # Define your OpenAI API key
-    API_KEY = "pk-eAWvHQfEkRiWCiCNMDLnOGdfpqgxCQzbPtPrBvtdbmHmFktW"
-
-    # Function to interact with the GPT API
-    def generate_response(prompt):
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {API_KEY}"
-        }
-        data = {
-            "prompt": prompt,
-            "max_tokens": 1000  # Adjust the max tokens as needed
-        }
-        response = requests.post(API_ENDPOINT, headers=headers, json=data)
-        
-        if response.ok:
-            response_json = response.json()
-            
-            if "choices" in response_json and len(response_json["choices"]) > 0:
-                return response_json["choices"][0]["text"].strip()
-            else:
-                return "No response received from the chatbot."
-        else:
-            print("Error accessing the chatbot API. Status code:", response.status_code)
-            return "An error occurred while accessing the chatbot. Please try again later."
-
-
-    # Function to simulate bot typing effect
-    def simulate_typing():
-        st.text("Bot is typing...")
-
-    # Main code
-    st.title("Healthcare Chatbot")
-    st.markdown("Welcome to the Healthcare Chatbot! How can I assist you today?")
-
-    # User input
-    user_input = st.text_input("User:")
-
-    # Generate bot response
-    if user_input:
-        bot_response = generate_response(user_input)
-        bot_response_html = f'<div style="overflow-wrap: break-word; height: auto; padding: 10px;">{bot_response}</div>'
-        st.markdown(bot_response_html, unsafe_allow_html=True)
-
-
-
 #Liver Prediction Page:
 
 if(selected == "Liver"):
@@ -1062,4 +1010,5 @@ def set_bg_from_url(url, opacity=1):
 
 # background image from URL
 set_bg_from_url("https://news.harvard.edu/wp-content/uploads/2023/04/AI-cardiologist-heart-diagnostics_1200x800.jpg", opacity=0.85)
+
 
