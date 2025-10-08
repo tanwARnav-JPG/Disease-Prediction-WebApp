@@ -29,11 +29,11 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 ---
 
 ## 🧩 Datasets Used
-- **Diabetes** – Pima Indians Diabetes Database (Kaggle)  
-- **Heart Disease** – Cleveland Heart Disease Dataset (UCI)  
-- **Parkinson’s Disease** – UCI Parkinson’s Dataset  
-- **Breast Cancer** – Wisconsin Breast Cancer Dataset (UCI)  
-- **Lung Cancer** – Lung Cancer Dataset (Kaggle)
+- **Diabetes** – PIMA Indian Diabetes dataset from Kaggle  
+- **Heart Disease** – Cleveland Heart Disease dataset from UCI Machine Learning Repository 
+- **Parkinson’s Disease** – UCI Parkinson’s Telemonitoring dataset
+- **Breast Cancer** – Wisconsin Breast Cancer dataset (Diagnostic) from UCI Machine Learning Repository  
+- **Lung Cancer** – Lung Cancer dataset sourced from Kaggle
 
 ---
 
@@ -45,7 +45,4 @@ This system uses **machine learning algorithms** to deliver quick, cost-effectiv
 
 ---
 
-## ⚙️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/multi-disease-prediction-system.git
+
